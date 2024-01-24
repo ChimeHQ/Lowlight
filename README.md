@@ -6,7 +6,7 @@
 </div>
 
 # Lowlight
-A simple syntax processing system that priorities latency over correctness
+A simple syntax processing system that prioritizes latency over correctness
 
 - partial document "parsing"
 - Very simple data-based description of languages
