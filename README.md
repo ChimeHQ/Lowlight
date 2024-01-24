@@ -8,7 +8,7 @@
 # Lowlight
 A simple syntax processing system that priorities latency over correctness
 
-- O(1) "parsing"
+- partial document "parsing"
 - Very simple data-based description of languages
 - Get information about tokens and scopes
 
@@ -18,7 +18,7 @@ You may be wondering why someone would ever want something like this. To do accu
 - The document must then be parsed
 - Some queries must be run over the parse tree to get the needed information
 
-All of these components require non-zero time, and that time scales, at best, linearly with the size of the document. Lowlight can process fragments of documents, and can do it in O(1) time. It does not produce parse trees, only enough information to make reasonable guesses at tokens and scopes.
+All of these components require non-zero time, and that time scales, at best, linearly with the size of the document. Lowlight can process fragments of documents. It does not produce parse trees, only enough information to make reasonable guesses at tokens and scopes.
 
 Lowlight is useful as very fast first pass. It fits in well with a multi-pass highlighting system like [Neon][neon].
 
