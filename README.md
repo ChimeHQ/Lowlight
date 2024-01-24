@@ -1,5 +1,6 @@
 <div align="center">
 
+[![Build Status][build status badge]][build status]
 [![Discord][discord badge]][discord]
 
 </div>
@@ -42,6 +43,8 @@ I prefer indentation with tabs for improved accessibility. But, I'd rather you u
 
 By participating in this project you agree to abide by the [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 
+[build status]: https://github.com/ChimeHQ/Lowlight/actions
+[build status badge]: https://github.com/ChimeHQ/Lowlight/workflows/CI/badge.svg
 [discord]: https://discord.gg/esFpX6sErJ
 [discord badge]: https://img.shields.io/badge/Discord-purple?logo=Discord&label=Chat&color=%235A64EC
 [neon]: https://github.com/ChimeHQ/Neon
