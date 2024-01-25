@@ -3,7 +3,7 @@ public struct Token: Hashable, Sendable {
 
 }
 
-//. Represents a textual scope.
+/// Represents a textual scope.
 public struct Scope: Hashable, Sendable {
 
 }
