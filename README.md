@@ -23,7 +23,7 @@ All of these components require non-zero time, and that time scales, at best, li
 Lowlight is useful as very fast first pass. It fits in well with a multi-pass highlighting system like [Neon][neon].
 
 > [!WARNING]
-> This is currenty very WIP.
+> This is currently very WIP.
 
 ## Installation
 
