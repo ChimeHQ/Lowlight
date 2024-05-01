@@ -3,7 +3,7 @@ import Lowlight
 
 final class LanguageTests: XCTestCase {
     func testLanguageWithOneKeyword() throws {
-        let language = Language()
+        let language = Language(patterns: [])
 
 		XCTAssertNotNil(language)
     }
