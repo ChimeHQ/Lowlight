@@ -3,6 +3,7 @@ extension Language {
 		keywords: [
 			"actor",
 			"async",
+			"await",
 			"case",
 			"class",
 			"default",
@@ -19,6 +20,8 @@ extension Language {
 			"public",
 			"return",
 			"self",
+			"set",
+			"some",
 			"static",
 			"struct",
 			"switch",
